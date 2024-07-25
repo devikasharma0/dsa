@@ -7,10 +7,10 @@ int left = low;
 int right = mid+1;
 //Merge the two parts of the divded array
 while(left<=mid && right<= high){
-    if(arr[left] <= arr[right]){
+    if(arr[left] <= arr[right]){ 
         temp.push_back(arr[left]);
         left++;
-    }
+    } 
     else{
         temp.push_back(arr[right]);
         right++;
