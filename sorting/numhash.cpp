@@ -6,6 +6,7 @@ int main(){
     cin >> n;
     int arr[n];
     for(int i = 0; i<n; i++){
+        //121212
         cin >> arr[i];
     }
     //pre-computing
@@ -16,7 +17,7 @@ int main(){
 
     int q;
     cin >> q;
-    while(--q){
+    while(q--){
         int number;
         cin >> number;
         //fetch

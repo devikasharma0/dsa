@@ -62,10 +62,11 @@ class Hero{
 int Hero::time=0;
 int main()
 {
-    cout<< Hero::time<<endl;
-    // Hero a;
-    // Hero *b = new Hero();
-    // delete b; //manually calling destructor for dynamic object 
+    //cout<< Hero::time<<endl;
+    Hero a;
+    cout<< num;
+    Hero *b = new Hero();
+    delete b; //manually calling destructor for dynamic object 
     // Hero hero1;
     // hero1.setHealth(100);
     // hero1.setLevel('A');
